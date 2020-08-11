@@ -7,10 +7,10 @@ import java.util.Date;
 
 @Data
 public class DownloadData {
-    @ExcelProperty("字符串标题")
+    @ExcelProperty(value = {"信息","字符串标题"})
     private String string;
-    @ExcelProperty("日期标题")
+    @ExcelProperty(value = {"信息","日期标题"})
     private Date date;
-    @ExcelProperty("数字标题")
+    @ExcelProperty(value = {"信息","数字标题"})
     private Double doubleData;
 }
